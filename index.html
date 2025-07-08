@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEET Mock Test - Genetics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🧬 High-Level MCQs in Genetics with Solutions (NEET & Beyond)</h1>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. In a dihybrid cross AaBb × AaBb, what is the probability of obtaining an offspring with at least one dominant allele for both genes?</p>
+                <label><input type="radio" name="q1" value="A"> A. 9/16</label><br>
+                <label><input type="radio" name="q1" value="B"> B. 3/16</label><br>
+                <label><input type="radio" name="q1" value="C"> C. 15/16</label><br>
+                <label><input type="radio" name="q1" value="D"> D. 7/16</label>
+            </div>
+            <!-- Repeat similar blocks for questions 2 to 10 -->
+            <div class="question">
+                <p>2. A man with blood group A (genotype IAi) marries a woman with blood group B (genotype IBi). What is the probability that their child will have blood group AB?</p>
+                <label><input type="radio" name="q2" value="A"> A. 0</label><br>
+                <label><input type="radio" name="q2" value="B"> B. 1/4</label><br>
+                <label><input type="radio" name="q2" value="C"> C. 1/2</label><br>
+                <label><input type="radio" name="q2" value="D"> D. 3/4</label>
+            </div>
+            <div class="question">
+                <p>3. A male affected by an X-linked dominant disorder marries a normal female. What percentage of daughters will be affected?</p>
+                <label><input type="radio" name="q3" value="A"> A. 25%</label><br>
+                <label><input type="radio" name="q3" value="B"> B. 50%</label><br>
+                <label><input type="radio" name="q3" value="C"> C. 100%</label><br>
+                <label><input type="radio" name="q3" value="D"> D. 0%</label>
+            </div>
+            <div class="question">
+                <p>4. A normal couple has an albino child (aa). What is the probability that their next child will be a carrier of albinism?</p>
+                <label><input type="radio" name="q4" value="A"> A. 1/2</label><br>
+                <label><input type="radio" name="q4" value="B"> B. 1/4</label><br>
+                <label><input type="radio" name="q4" value="C"> C. 3/4</label><br>
+                <label><input type="radio" name="q4" value="D"> D. 2/3</label>
+            </div>
+            <div class="question">
+                <p>5. In a trihybrid cross AaBbCc × AaBbCc, what is the probability of an offspring being AA Bb Cc?</p>
+                <label><input type="radio" name="q5" value="A"> A. 1/64</label><br>
+                <label><input type="radio" name="q5" value="B"> B. 1/32</label><br>
+                <label><input type="radio" name="q5" value="C"> C. 1/16</label><br>
+                <label><input type="radio" name="q5" value="D"> D. 1/8</label>
+            </div>
+            <div class="question">
+                <p>6. In snapdragon plants, red (RR) × white (rr) = pink (Rr). If two pink plants are crossed, what percentage of the offspring will be pink?</p>
+                <label><input type="radio" name="q6" value="A"> A. 50%</label><br>
+                <label><input type="radio" name="q6" value="B"> B. 25%</label><br>
+                <label><input type="radio" name="q6" value="C"> C. 75%</label><br>
+                <label><input type="radio" name="q6" value="D"> D. 100%</label>
+            </div>
+            <div class="question">
+                <p>7. In the cross TtYy × TtYy (T = tall, t = dwarf, Y = yellow, y = green), what is the probability of getting a dwarf plant with green seeds?</p>
+                <label><input type="radio" name="q7" value="A"> A. 1/4</label><br>
+                <label><input type="radio" name="q7" value="B"> B. 1/16</label><br>
+                <label><input type="radio" name="q7" value="C"> C. 3/16</label><br>
+                <label><input type="radio" name="q7" value="D"> D. 9/16</label>
+            </div>
+            <div class="question">
+                <p>8. In a population, frequency of allele A is 0.6. What percent of individuals will be homozygous recessive?</p>
+                <label><input type="radio" name="q8" value="A"> A. 36%</label><br>
+                <label><input type="radio" name="q8" value="B"> B. 16%</label><br>
+                <label><input type="radio" name="q8" value="C"> C. 40%</label><br>
+                <label><input type="radio" name="q8" value="D"> D. 64%</label>
+            </div>
+            <div class="question">
+                <p>9. Which of the following correctly describes the mutation in sickle cell anemia?</p>
+                <label><input type="radio" name="q9" value="A"> A. Deletion of adenine</label><br>
+                <label><input type="radio" name="q9" value="B"> B. Substitution of glutamic acid with valine at position 6</label><br>
+                <label><input type="radio" name="q9" value="C"> C. Substitution of valine with glutamic acid</label><br>
+                <label><input type="radio" name="q9" value="D"> D. Insertion mutation in α-globin gene</label>
+            </div>
+            <div class="question">
+                <p>10. A white-eyed male Drosophila (XʷY) is crossed with a heterozygous red-eyed female (XʷX⁺). What proportion of male offspring will have white eyes?</p>
+                <label><input type="radio" name="q10" value="A"> A. 25%</label><br>
+                <label><input type="radio" name="q10" value="B"> B. 50%</label><br>
+                <label><input type="radio" name="q10" value="C"> C. 100%</label><br>
+                <label><input type="radio" name="q10" value="D"> D. 0%</label>
+            </div>
+            <button type="button" onclick="calculateScore()">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
